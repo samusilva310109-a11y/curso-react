@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Algo from './Algo';
 
+// 1. Localiza o elemento 'root' no HTML
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// 2. Renderiza a aplicação dentro desse elemento
 root.render(
   <React.StrictMode>
     <App />
+    <Algo />
   </React.StrictMode>
 );
 

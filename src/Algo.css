@@ -1,0 +1,11 @@
+.Algo{
+    text-align: center;
+    background-color: rgb(188, 105, 216);
+    color: white;
+}
+
+.Algo h1{
+    font-weight: bold;
+    border: solid 2px rgb(220, 169, 237);
+    border-radius: 5px;
+}
